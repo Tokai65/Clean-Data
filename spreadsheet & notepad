@@ -35,5 +35,25 @@ b.电子表格到JSON—— google spreadsheet实现
 c.使用 phpMyAdmin 从SQL语句中生成CSV 或 JSON
 d.使用PHP实现数据转换
 ア.使用PHP实现SQL到JSON的数据转换
-イ.
-ウ.
+
+** e.使用Python实现CSV到JSON的数据互相转换
+
+
+————————————————————————————————————————————————————————————————
+
+
+项目演示
+
+1.用netvizz下载Facebook的社交网络 并把这些数据保存为一文本为基础的地理数据格式(GDF);
+2.在文本编辑器Text Wrangler 中查看GDF文件——内容分为节点和边;
+3.从GDF到JSON格式的转换
+4.构建D3图
+
+
+
+
+
+
+
+
+
