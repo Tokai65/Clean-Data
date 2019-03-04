@@ -1,0 +1,18 @@
+关系型数据库
+
+找到RDBMS的异常数据
+学会使用不同的策略清洗不同类型的问题数据
+因地制宜创建新数据表存放清洗后的数据，包括创建子表和查找表
+编写文档
+
+1.下载并检查Sentiment140
+2.清洗要导入的数据
+3.把数据导入MySQL
+user@machine:~sentiment140$ mysql -hlocalhost -umsquire -p
+Enter password;
+
+mysql> CREATE DATABASE sentiment140;
+mysql> USE sentiment140;
+
+
+
