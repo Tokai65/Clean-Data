@@ -9,12 +9,10 @@ f.clean函数去除ASCII表中前32字符,实现代码: clean(trim());
 
 
 2.字符串拆分
-
 a.split函数:接收字符串分割成几段；
 
 
 3.字符串拼接
-
 a.函数concatenate可接受多个字符串参数（既可以是单元格引用也可以是带引号的字符串）
 b.使用 条件格式化功能 查找异常数据（使用 Googlespreadsheet ）
 c.排序查找异常
@@ -22,9 +20,20 @@ d.mysql中倒入电子表格数据
 ア.从电子表格创建CSV（逗号分隔）数据， 命令: LOAD DATA IN FILE
 イ.电子表格生成sql（围绕各字段添加SQL命令INSERT所需的组件:引用字符串，圆括号，命令，分号）
 
-4.文本编辑器里的数据清洗（Text Wrangler）
+4.文本编辑器里的数据清洗（使用Text Wrangler）
 a.文本调整（全部大写/小写）
 b.列选模式
 c.加强版的查找与替换功能(Grep选项，使用regex来查找)
-d.
-e.
+d.Process Lines Containing
+
+
+5.通用语言——数据转换
+1.利用Excel,Google Spreadsheets &. phpMyAdmin 把数据快速转换为JSON的CSV格式;
+2.基于工具的快速转换
+a.电子表格到CSV——另存为即可
+b.电子表格到JSON—— google spreadsheet实现
+c.使用 phpMyAdmin 从SQL语句中生成CSV 或 JSON
+d.使用PHP实现数据转换
+ア.使用PHP实现SQL到JSON的数据转换
+イ.
+ウ.
