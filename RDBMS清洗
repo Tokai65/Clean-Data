@@ -15,4 +15,26 @@ mysql> CREATE DATABASE sentiment140;
 mysql> USE sentiment140;
 
 
+4.发现并清洗异常数据
+推文中超过140字符的部分被转义，异常数据
+a.倒入数据库在数据库端清洗
+b.excel或文本编辑器中清洗
+
+
+5创建自己的数据库
+mysql> CREATE TABLE sentiment140(
+...
+
+
+6.清洗&amp;字符
+用update语句和replace()函数进行后续
+
+
+7.REGEXP功能找到存在问号位置的数据
+
+
+8.清洗日期
+
+
+
 
