@@ -9,3 +9,16 @@ f.clean函数去除ASCII表中前32字符,实现代码: clean(trim());
 
 
 2.字符串拆分
+
+a.split函数:接收字符串分割成几段；
+
+
+3.字符串拼接
+
+a.函数concatenate可接受多个字符串参数（既可以是单元格引用也可以是带引号的字符串）
+b.使用 条件格式化功能 查找异常数据（使用 Googlespreadsheet ）
+c.排序查找异常
+d.mysql中倒入电子表格数据
+ア.从电子表格创建CSV数据， 命令: LOAD DATA IN FILE
+イ.
+e.
