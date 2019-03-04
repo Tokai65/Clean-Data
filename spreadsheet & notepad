@@ -48,6 +48,13 @@ d.使用PHP实现数据转换
 2.在文本编辑器Text Wrangler 中查看GDF文件——内容分为节点和边;
 3.从GDF到JSON格式的转换
 4.构建D3图
+5.把数据转化成Pajek格式
+6.简单分析
+
+* networks &. D3都是非常好的工具
+本质是通过netvizz拿到Facebook数据从一种文件格式转换成另一种文件格式
+
+
 
 
 
